@@ -23,6 +23,6 @@ Write a script server-stats.sh that can analyse basic server performance stats. 
 
 ## Screenshot
 
-![server-performance-stats](https://github.com/seizenz7/DevOps-Project-Roadmad.sh/new/main/server-performance-stats/screenshot/server-performance-stats.png)
+![server-performance-stats](https://github.com/seizenz7/DevOps-Project-Roadmad.sh/blob/main/server-performance-stats/screenshot/server-performance-stats.png)
 
-![server-performance-stats-2](https://github.com/seizenz7/DevOps-Project-Roadmad.sh/new/main/server-performance-stats/screenshot/server-performance-stats-2.png)
+![server-performance-stats-2](https://github.com/seizenz7/DevOps-Project-Roadmad.sh/blob/main/server-performance-stats/screenshot/server-performance-stats-2.png)
