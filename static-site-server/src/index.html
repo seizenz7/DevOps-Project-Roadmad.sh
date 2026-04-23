@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Server Setup - Learning Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">🐧 Linux Server</a>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#guide">Guide</a></li>
+                <li><a href="#stats">Stats</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Linux Server Setup</h1>
+            <p>Master the fundamentals of server configuration and static site deployment</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Get Started</button>
+                <button class="btn btn-secondary">Learn More</button>
+            </div>
+            <!-- <div class="hero-image">
+                <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 576'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:%230d1b2a;stop-opacity:1' /><stop offset='100%' style='stop-color:%231a2f4a;stop-opacity:1' /></linearGradient></defs><rect width='1024' height='576' fill='url(%23grad)'/><text x='512' y='288' font-size='48' fill='%2300d4ff' text-anchor='middle' font-family='monospace'>[Hero Banner - Linux Server Setup]</text></svg>" alt="Linux Server Banner">
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <!-- Features Section -->
+            <section id="features">
+                <div class="section-title">
+                    <div class="subtitle">What You'll Learn</div>
+                    <h2>Core Topics & Skills</h2>
+                </div>
+
+                <div class="features">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect fill='%231a1a1a' width='256' height='256'/><text x='128' y='140' font-size='80' fill='%2300d4ff' text-anchor='middle' font-family='monospace'>$</text></svg>" alt="Terminal">
+                        </div>
+                        <h3>Terminal Basics</h3>
+                        <p>Learn essential Linux commands and shell scripting to manage your server efficiently.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect fill='%23ffffff' width='256' height='256'/><circle cx='128' cy='128' r='50' fill='%231a73e8'/><text x='128' y='145' font-size='40' fill='white' text-anchor='middle' font-family='system-ui' font-weight='bold'>⊕</text></svg>" alt="Network">
+                        </div>
+                        <h3>Network Configuration</h3>
+                        <p>Setup and configure network interfaces, DNS, and firewall rules for secure connectivity.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect fill='%23e8f5e9' width='256' height='256'/><rect x='80' y='60' width='96' height='140' rx='8' fill='none' stroke='%232196F3' stroke-width='12'/><circle cx='128' cy='130' r='20' fill='%234CAF50'/></svg>" alt="Security">
+                        </div>
+                        <h3>Security Hardening</h3>
+                        <p>Implement security best practices including SSH keys, firewalls, and user management.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect fill='%23f5f5f5' width='256' height='256'/><path d='M 128 50 L 200 100 L 200 180 Q 128 220 128 220 Q 56 220 56 180 L 56 100 Z' fill='%2300d4ff'/></svg>" alt="Deploy">
+                        </div>
+                        <h3>Deployment</h3>
+                        <p>Deploy and manage static websites using modern web servers like Nginx and Apache.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect fill='%23f0f0f0' width='256' height='256'/><g fill='%2300d4ff'><circle cx='80' cy='80' r='30'/><circle cx='176' cy='80' r='30'/><circle cx='80' cy='176' r='30'/><circle cx='176' cy='176' r='30'/><line x1='128' y1='50' x2='128' y2='206' stroke='%2300d4ff' stroke-width='4'/><line x1='50' y1='128' x2='206' y2='128' stroke='%2300d4ff' stroke-width='4'/></g></svg>" alt="Management">
+                        </div>
+                        <h3>System Management</h3>
+                        <p>Master process management, file systems, and resource monitoring tools.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><rect fill='%23e3f2fd' width='256' height='256'/><rect x='40' y='80' width='176' height='120' rx='8' fill='none' stroke='%231976d2' stroke-width='8'/><line x1='128' y1='80' x2='128' y2='200' stroke='%231976d2' stroke-width='4'/></svg>" alt="Best Practices">
+                        </div>
+                        <h3>Best Practices</h3>
+                        <p>Follow industry standards for configuration, maintenance, and operational excellence.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Code Example Section -->
+            <section id="guide" class="code-section">
+                <h3>Quick Start Example</h3>
+                <p>Here's a preview of typical commands you'll work with when setting up a Linux server:</p>
+                <div class="code-image">
+                    <img src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1024 300'><rect fill='%231a1a1a' width='1024' height='300'/><text x='20' y='40' font-size='14' fill='%2300d4ff' font-family='monospace'>$ sudo apt-get update</text><text x='20' y='70' font-size='14' fill='%2300ff00' font-family='monospace'>$ sudo apt-get install nginx</text><text x='20' y='100' font-size='14' fill='%2300ff00' font-family='monospace'>$ sudo systemctl start nginx</text><text x='20' y='130' font-size='14' fill='%2300ff00' font-family='monospace'>$ sudo systemctl enable nginx</text><text x='20' y='160' font-size='14' fill='%2300ff00' font-family='monospace'>$ sudo ufw allow 80/tcp</text><text x='20' y='190' font-size='14' fill='%2300ff00' font-family='monospace'>$ curl localhost</text><text x='20' y='220' font-size='14' fill='%2388ccff' font-family='monospace'>&lt;html&gt;&lt;head&gt;Welcome to nginx!&lt;/head&gt;&lt;/html&gt;</text><text x='20' y='260' font-size='14' fill='%2300ff00' font-family='monospace'>$</text></svg>" alt="Code Example">
+                </div>
+            </section>
+
+            <!-- Stats Section -->
+            <section id="stats" class="stats">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Learning Modules</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Hands-on Practice</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Community Support</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Learning Resources</div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About This Project</h4>
+                    <p>A comprehensive learning resource for mastering Linux server setup and static site deployment. Perfect for beginners and intermediate users.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Linux Basics</a></li>
+                        <li><a href="#">Server Guides</a></li>
+                        <li><a href="#">Command Reference</a></li>
+                        <li><a href="#">Troubleshooting</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Linux Server Learning Project. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
