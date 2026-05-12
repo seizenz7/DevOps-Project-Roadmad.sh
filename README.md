@@ -7,3 +7,4 @@ Challenge: Complete the DevOps projects from roadmap.sh to upgrade skills from b
 4. [SSH Remote Server Setup](./ssh-remote-server-setup) -> Project URL : https://roadmap.sh/projects/ssh-remote-server-setup
 5. [Static Site Server](./static-site-server) -> Project URL : https://roadmap.sh/projects/static-site-server
 6. [Simple Monitoring](./simple-monitoring) -> Project URL : https://roadmap.sh/projects/simple-monitoring-dashboard
+7. [GitHub Pages Deployment](https://github.com/seizenz7/gh-pages-deploy-workflow) -> Project URL : https://roadmap.sh/projects/github-actions-deployment-workflow
