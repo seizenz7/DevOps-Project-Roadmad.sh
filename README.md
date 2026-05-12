@@ -6,3 +6,4 @@ Challenge: Complete the DevOps projects from roadmap.sh to upgrade skills from b
 3. [Nginx Log Analyser](./nginx-log-analyser/) -> Project URL : https://roadmap.sh/projects/nginx-log-analyser
 4. [SSH Remote Server Setup](./ssh-remote-server-setup) -> Project URL : https://roadmap.sh/projects/ssh-remote-server-setup
 5. [Static Site Server](./static-site-server) -> Project URL : https://roadmap.sh/projects/static-site-server
+6. [Simple Monitoring](./simple-monitoring) -> Project URL : https://roadmap.sh/projects/simple-monitoring-dashboard
